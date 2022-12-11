@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
 /**
- * main - print out if a number is positive or negative 
+ * main - print out if a number is positive or negative
  *
  * Return: 0
  */
