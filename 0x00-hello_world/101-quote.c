@@ -7,10 +7,7 @@
  */
 int main(void)
 {
-	char sentence[100];
 
-	sentence[100] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19"
-	printf("%s", sentence);
-	printf("\n");
+	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
