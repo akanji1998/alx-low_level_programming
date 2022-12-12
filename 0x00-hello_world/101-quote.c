@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main - output a sentence
  *
@@ -8,7 +9,8 @@ int main(void)
 {
 	char sentence[100];
 
-	sentence[100] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\0";
-	putchar(sentence);
+	sentence[100] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19"
+	printf("%s", sentence);
+	printf("\n");
 	return (1);
 }
