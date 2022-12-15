@@ -3,8 +3,7 @@
  * _isalpha - detect if a caracter is alpha
  *
  * @c: the caracter check
- *
- * Return : 1 if c is a letter,lowercas or uppercase, otherwise 0
+ * Return: 1 if c is a letter,lowercas or uppercase, otherwise 0
  */
 int _isalpha(int c)
 {
