@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * times_table - give the times table from 0 to 9
  */
