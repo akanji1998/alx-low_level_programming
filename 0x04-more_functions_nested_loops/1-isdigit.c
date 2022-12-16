@@ -10,7 +10,6 @@ int _isdigit(int c)
 {
 	if (isdigit(c))
 	{
-		_putchar(c);
 		return (1);
 	}
 	else
