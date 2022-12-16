@@ -5,7 +5,7 @@
  * @size: The size of the square
  */
 
-void print_square (int size)
+void print_square(int size)
 {
 	if (size <= 0)
 	{
@@ -13,7 +13,7 @@ void print_square (int size)
 	}
 	else
 	{
-		int i,j;
+		int i, j;
 
 		for (i = 0; i < size; i++)
 		{
