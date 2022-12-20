@@ -7,12 +7,20 @@
 
 void _puts(char *str)
 {
-	char string[100];
+	int n = 0;
+	int i;
 
 	while (*str != '\0')
 	{
-		string[] = *str;
+		n++;
 	}
-	string[] = '\0';
+
+	char string[n];
+
+	for (i = 0; i <= n; i++)
+	{
+		string[i] = *str;
+	}
+
 	puts(string);
 }
