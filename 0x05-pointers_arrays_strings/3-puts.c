@@ -12,15 +12,7 @@ void _puts(char *str)
 
 	while (*str != '\0')
 	{
-		n++;
+		_putchar(*str);
 	}
-
-	char string[n];
-
-	for (i = 0; i <= n; i++)
-	{
-		string[i] = *str;
-	}
-
-	puts(string);
+	_putchar('\n');
 }
